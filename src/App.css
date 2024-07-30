@@ -7,3 +7,14 @@ body{
     @apply bg-gradient-to-t from-blue-500 to-cyan-500 text-transparent
     
 }
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: SemiBold 600;
+  }
+  @layer components{
+    .card{
+        @apply rounded-xl shadow-xl
+    }
+  }
+  

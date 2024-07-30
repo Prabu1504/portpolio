@@ -29,64 +29,54 @@ const Home = () => {
       </section>
       {/* project section */}
       <section>
-        <div className='container m-auto px-12 py-10 flex  flex-row md:flex-col'>
-          <h1 className='text-2xl font-semibold' >Projects</h1>
-          <div className='flex gap-8 mt-10'>
-            <div className='border  border-gray-500 rounded-md p-5'>
-              <img src={project1} className='w-full h-auto' alt="Project1 text-lg font-semibold" />
-              <h2 className='text-2xl font-semibold mt-5'>First Ladder</h2>
-              <p className='text-gray-400 text-sm mt-2'>This webpage is the Abrout consultancy work and job all the move at the place  </p>
-              <div className='flex justify-evenly mt-12 gap-10'>
-                <button className='px-6 py-3 text-lg bg-gradient-to-t from-blue-500 to-cyan-500 rounded-full hover:from-blue-700 hover:to-cyan-700'>Live Preview</button>
-                <button className='px-6 py-3 text-lg border rounded-full hover:text-blue-500 hover:border-blue-500'>Checkout github</button>
+        <div className='container flex  flex-row md:flex-col'>
+          <h1 className='text-3xl font-semibold  hover:text-[#00df9a] my-12 px-12 py-10' >Projects</h1>
+          {/* mew card project */}
+          <div className=' flex items-center justify-center min-h-screen container mx-auto'>
+            {/* Crid */}
+            <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 '>
+              {/* card */}
+              <div className='card rounded-xl shadow-lg border border-gray-500 p-5'>
+                <div className=' p-5 flex-col'>
+                  <div className=' rounded-xl overflow-hidden'>
+                    <img src={project1} className='w-full h-auto' alt="Project1 text-lg font-semibold" />
+                  </div>
+                  <h5 className='text-2xl md:text-3xl font-medium mt-3'>First Ladder</h5>
+                  <p className='text-slate-500 text-lg mt-3'>First-Ladder is an International Education, Immigration and Recruitment Consulting Company headquartered in Chennai, India. We are a leading global career consulting firm, providing innovative and customized solutions to students, job seekers and employers. Our process starts with developing an accurate profile of each candidate and using that as out database to match them with the available opportunities in terms of education and jobs. Our aim is to help students and professionals from all over the world to find opportunities that match their requirements, skillset, interests and aspirations, so that they can pursue their while achieving higher returns on investment.</p>
+                  <button>hai</button>
+                </div>
+
               </div>
-            </div>
-            <div className='border  border-gray-500 rounded-md p-5'>
-              <img src={project2} className='w-full h-auto' alt="Project1 text-lg font-semibold" />
-              <h2 className='text-2xl font-semibold mt-5'>PSP health care </h2>
-              <p className='text-gray-400 text-sm mt-2'>This page is the appointment in the doctor and date and time all the work of this the website thats work  </p>
-              <div className='flex justify-evenly mt-12 gap-10'>
-                <button className='px-6 py-3 text-lg bg-gradient-to-t from-blue-500 to-cyan-500 rounded-full hover:from-blue-700 hover:to-cyan-700'>Live Preview</button>
-                <button className='px-6 py-3 text-lg border rounded-full hover:text-blue-500 hover:border-blue-500'>Checkout github</button>
+              <div className='card rounded-xl shadow-lg border border-gray-500 p-5'>
+                <div className=' p-5 flex-col'>
+                  <div className=' rounded-xl overflow-hidden'>
+                    <img src={project2} className='w-full h-auto' alt="Project1 text-lg font-semibold" />
+
+                  </div>
+                  <h5 className='text-2xl md:text-3xl font-medium mt-3'>PSP health care</h5>
+                  <p className='text-slate-500 text-lg mt-3'>The exact cause of PSP is unknown, but research suggests that it involves progressive damage to cells in a few specific areas in the brain, mainly in the brain stem. The death of brain cells in one of these areas, the substantia nigra, accounts in part for the motor symptoms that PSP and Parkinson's have in common. The tau protein deposits that accumulate in nerve cells in PSP appear to spread to different regions of the brain and cause cells to stop working and die. This in turn destroys the neuronal connections that underlie healthy brain function.</p>
+                  <button>hai</button>
+                </div>
+
               </div>
-            </div>
-            <div className='border  border-gray-500 rounded-md p-5'>
-              <img src={project3} className='w-full h-auto' alt="Project1 text-lg font-semibold" />
-              <h2 className='text-2xl font-semibold mt-5'>PSP health care</h2>
-              <p className='text-gray-400 text-sm mt-2'>This page is the appointment in the doctor and date and time all the work of this the website thats work</p>
-              <div className='flex justify-evenly mt-14 gap-10'>
-                <button className='px-6 py-3 text-lg bg-gradient-to-t from-blue-500 to-cyan-500 rounded-full hover:from-blue-700 hover:to-cyan-700'>Live Preview</button>
-                <button className='px-6 py-3 text-lg border rounded-full hover:text-blue-500 hover:border-blue-500'>Checkout github</button>
+              <div className='card rounded-xl shadow-lg border border-gray-500 p-5'>
+                <div className=' p-5 flex-col'>
+                  <div className=' rounded-xl overflow-hidden'>
+                    <img src={project3} className='w-full h-auto' alt="Project1 text-lg font-semibold" />
+
+                  </div>
+                  <h5 className='text-2xl md:text-3xl font-medium mt-3'>Multi-speciality Clinic</h5>
+                  <p className='text-slate-500 text-lg mt-3'>Multispeciality hospitals are hospitals that offer a wide range of medical services. These hospitals have the capability to treat many different types of illnesses and conditions. The doctors in these hospitals are specialists in their field</p><button>hai</button>
+                </div>
 
               </div>
             </div>
-            <div className='border  border-gray-500 rounded-md p-5'>
-              <img src={project3} className='w-full h-auto' alt="Project1 text-lg font-semibold" />
-              <h2 className='text-2xl font-semibold mt-5'>First Ladder</h2>
-              <p className='text-gray-400 text-sm mt-2'>This webpage is the Abrout consultancy work and job all the move at the place</p>
-              <div className='flex justify-evenly mt-12 gap-10'>
-                <button className='px-6 py-3 text-lg bg-gradient-to-t from-blue-500 to-cyan-500 rounded-full hover:from-blue-700 hover:to-cyan-700'>Live Preview</button>
-                <button className='px-6 py-3 text-lg border rounded-full hover:text-blue-500 hover:border-blue-500'>Checkout github</button>
-
-              </div>
-            </div>
-            {/* <div className='border  border-gray-500 rounded-md p-5'>
-              <img src={project4} className='w-full h-auto' alt="Project1 text-lg font-semibold" />
-              <h2 className='text-2xl font-semibold mt-5'></h2>
-              <p className='text-gray-400 text-sm mt-2'>Responsive HTML/CSS layout for online furnitures store.HTML5,CSS3 (SCSS) </p>
-              <div className='flex justify-evenly mt-12'>
-                <button className='px-6 py-3 text-lg bg-gradient-to-t from-blue-500 to-cyan-500 rounded-full hover:from-blue-700 hover:to-cyan-700'>Live Preview</button>
-                <button className='px-6 py-3 text-lg border rounded-full hover:text-blue-500 hover:border-blue-500'>Checkout github</button>
-
-              </div>
-            </div> */}
-            
           </div>
         </div>
         {/* Technology section */}
         <section className='my-12 px-12 py-10'>
           <div className='container m-auto px-4'>
-            <h1 className='text-2xl font-semibold'>Technologies</h1>
+            <h1 className='text-3xl font-semibold  hover:text-[#00df9a]'>Technologies</h1>
 
             <div className='mt-14 ml-10'>
               <div className=' mt-6'>
@@ -98,21 +88,21 @@ const Home = () => {
               </div>
               <div className=' mt-6'>
                 <div className='flex justify-between items-center'>
-                  <h2 className='font-semibold'>CSS,Saas $ Bootstrap</h2>
+                  <h2 className='font-semibold'>CSS $ Bootstrap $ Tailwind CSS</h2>
                   <p className='text-gray-500'>Advanced</p>
                 </div>
                 <span className='w-[90%] h-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
               </div>
               <div className=' mt-6'>
                 <div className='flex justify-between items-center'>
-                  <h2 className='font-semibold'>Javascript</h2>
+                  <h2 className='font-semibold'>JavaScript</h2>
                   <p className='text-gray-500'>Advanced</p>
                 </div>
                 <span className='w-[70%] h-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
               </div>
               <div className=' mt-6'>
                 <div className='flex justify-between items-center'>
-                  <h2 className='font-semibold'>UI design in Figma</h2>
+                  <h2 className='font-semibold'>UI Design in Figma</h2>
                   <p className='text-gray-500'>Advanced</p>
                 </div>
                 <span className='w-[85%] h-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
@@ -133,7 +123,7 @@ const Home = () => {
               </div>
               <div className=' mt-6'>
                 <div className='flex justify-between items-center'>
-                  <h2 className='font-semibold'>Fluter</h2>
+                  <h2 className='font-semibold'>Flutter</h2>
                   <p className='text-gray-500'>Advanced</p>
                 </div>
                 <span className='w-[50%] h-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
@@ -143,8 +133,8 @@ const Home = () => {
         {/* Additional Skills */}
         <section className=' px-12 py-10'>
           <div className='container m-auto px-4'>
-            <h1 className='text-2xl font-semibold'>Additional Skills</h1>
-            <div className='flex justify-between w-[80%] mt-[2%]'>
+            <h1 className='text-3xl font-semibold  hover:text-[#00df9a]'>Additional Skills</h1>
+            <div className='flex justify-between w-[80%] mt-[2%] px-4'>
               <div>
                 <p className=' font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-4'>Git</p>
               </div>
@@ -164,15 +154,15 @@ const Home = () => {
         </section>
         {/* About page */}
         <section className='px-12 py-10'>
-          <div className='container m-auto '>
-            <h1 className='text-2xl font-semibold'>About me</h1>
+          <div className='container m-auto px-4 '>
+            <h1 className='text-3xl font-semibold  hover:text-[#00df9a]'>About me</h1>
             <div className=' mt-12 relative before:absolute before:top-0 before:bottom-0 before:w-2 before:bg-white ml-20'>
               <div className='pl-6 relative'>
                 <h3 className=' absolute -left-12 font-semibold text-lg'>
                   2024
                 </h3>
                 <p>
-                  PGFSD,<br/>
+                  PGFSD,<br />
                   WHY Global service,Chennai
                 </p>
               </div>
@@ -190,7 +180,7 @@ const Home = () => {
                   2017
                 </h3>
                 <p>
-                  HSC,<br/>
+                  HSC,<br />
                   Government Boys High secondary School, Devapandalam
                 </p>
               </div>
@@ -199,7 +189,7 @@ const Home = () => {
                   2015
                 </h3>
                 <p>
-                  SSLC,<br/>
+                  SSLC,<br />
                   Government Boys High secondary School, Devapandalam
                 </p>
               </div>
