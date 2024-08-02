@@ -12,9 +12,9 @@ body{
     font-weight: 400;
     font-style: SemiBold 600;
   }
-  @layer components{
+  /* @layer components{
     .card{
         @apply rounded-xl shadow-xl
     }
-  }
+  } */
   

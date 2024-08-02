@@ -30,7 +30,7 @@ const Home = () => {
       {/* project section */}
       <section>
         <div className='container flex  flex-row md:flex-col'>
-          <h1 className='text-3xl font-semibold  hover:text-[#00df9a] my-12 px-12 py-10' >Projects</h1>
+          <h1 className='text-3xl font-semibold  hover:text-[#00df9a] px-12 py-10' >Projects</h1>
           {/* mew card project */}
           <div className=' flex items-center justify-center min-h-screen container mx-auto'>
             {/* Crid */}
